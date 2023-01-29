@@ -16,31 +16,40 @@ body {
 }
 
 .btn {
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .btn-primary,
 .btn-outline-secondary {
-    padding: 8px 20px;
+    padding: 10px 22px;
 }
 
 .btn-primary {
+    border: none;
     background-color: var(--primary);
 }
 
 .btn-primary:hover {
+    border: none;
+    background-color: var(--primary-dark);
+    transform: translateY(-1.2px);
+}
+
+.buttons .btn-primary:focus {
     background-color: var(--primary-dark);
 }
 
 .btn-outline-secondary {
     border: none;
     color: var(--black);
+    background-color: var(--gray-two);
 }
 
 .btn-outline-secondary:hover {
     border: none;
     color: var(--black);
-    background-color: var(--gray-two);
+    background-color: var(--gray-one);
+    transform: translateY(-1.2px);
 }
 
 .btn-outline-secondary:focus {
@@ -91,3 +100,31 @@ body {
     font-weight: bold;
     color: var(--primary);
 }
+
+section.hero {
+    padding: 40px 0;
+}
+
+section.hero .text h1 {
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 100px;
+    color: var(--black);
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+section.hero .text p {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--primary);
+}
+
+.buttons {
+    padding-top: 30px;
+}
+
+.buttons .btn {
+    font-size: 16px;
+}
+
