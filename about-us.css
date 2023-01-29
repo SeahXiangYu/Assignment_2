@@ -127,7 +127,7 @@ body {
 }
 
 .big-thing {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .country {
@@ -135,7 +135,7 @@ body {
 }
 
 .about-us {
-  margin-top: 75px;
+  margin-top: 150px;
 }
 
 .about-us-title {
@@ -144,7 +144,6 @@ body {
 }
 
 .about-us-desc {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 16px;
   color: #7f3be0;
 }
