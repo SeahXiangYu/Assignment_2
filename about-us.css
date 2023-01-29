@@ -147,3 +147,12 @@ body {
   font-size: 16px;
   color: #7f3be0;
 }
+
+.check {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.check-img {
+  margin-right: 10px;
+}
