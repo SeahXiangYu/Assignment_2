@@ -134,3 +134,48 @@ section.hero img {
     max-width: 560px;
 }
 
+.icons img {
+    width: 100%;
+    height: auto;
+    max-width: 90px; 
+}
+
+section.setup {
+    padding: 20px 0;
+}
+
+
+section.setup .text-header h1 {
+   font-size: 48px;
+   font-weight: 700;
+   color: var(--black);
+}
+
+section.setup .text-header p {
+    color: var(--primary);
+    padding: 38px 0;
+    padding-bottom: 60px;
+    padding-top: 5px;
+} 
+
+section.setup .icons {
+    padding-bottom: 38px 0;
+} 
+
+section.setup .icons:hover {
+    transform: translateY(-1.2px);
+} 
+
+
+section.setup h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--black);
+    padding-top: 30px;
+}
+
+section.setup p {
+    font-size: 14px;
+    color: var(--primary);
+    margin: 0 50px;
+}
