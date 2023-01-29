@@ -14,6 +14,11 @@
     />
     <!-- Link To CSS -->
     <link rel="stylesheet" href="about-us.css" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Navigation Bar Section -->
@@ -54,30 +59,31 @@
       <p class="h2">we're located all around the world.</p>
     </div>
     <!-- Image -->
-    <div class="container text-center">
+    <div class="big-thing container text-center">
       <img
-        src="/Images/about-us-image.png"
+        src="images/worldwide.png"
         class="img-fluid"
-        alt="about-us-image"
+        alt="worldwide-image"
+        style="height: 700px; width: auto"
       />
     </div>
 
     <!-- Countries -->
-    <div class="container text-left">
+    <div class="country container text-left">
       <div class="row align-items-start">
-        <div class="col">
+        <div class="col-4">
           <p class="h3">singapore.</p>
           <p class="h4">313@Somerset #B2-08</p>
           <p class="h5">+65 6219 3457</p>
           <p class="h5">flushsg@gmail.com.sg</p>
         </div>
-        <div class="col">
+        <div class="col-4">
           <p class="h3">malaysia.</p>
           <p class="h4">No. 2 Jalan Cemerlang 4</p>
           <p class="h5">+60 03-31813188</p>
           <p class="h5">flushmy@gmail.com.my</p>
         </div>
-        <div class="col">
+        <div class="col-4">
           <p class="h3">japan.</p>
           <p class="h4">1 Chome-294 Kiyomizu</p>
           <p class="h5">+81 75-551-1234</p>
@@ -85,25 +91,80 @@
         </div>
       </div>
     </div>
-    <div class="container text-left">
+    <div class="country container text-left">
       <div class="row align-items-start">
-        <div class="col">
+        <div class="col-4">
           <p class="h3">korea.</p>
           <p class="h4">163 Seoulsiripdae-ro</p>
           <p class="h5">+82 2-6490-6114</p>
           <p class="h5">flushkr@gmail.com.kr</p>
         </div>
-        <div class="col">
+        <div class="col-4">
           <p class="h3">germany.</p>
           <p class="h4">Porschestraße 1</p>
           <p class="h5">+49 341 999 0</p>
           <p class="h5">flushde@gmail.com.de</p>
         </div>
-        <div class="col">
+        <div class="col-4">
           <p class="h3">france.</p>
           <p class="h4">5 Avenue Anatole France</p>
           <p class="h5">+33 (0)8 92 70 12 39</p>
           <p class="h5">flushfr@gmail.com.fr</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="map" style="width: 700px; height: 500px"></div>
+
+    <!-- About Us Section -->
+    <div class="about-us container text-left">
+      <div class="row">
+        <div class="col-6">
+          <p class="about-us-title">learn more about us.</p>
+          <p class="about-us-desc text-wrap" style="width: 400x">
+            flush has been providing millions around the world with toiletry
+            products and services of the highest calibre since 1982 because we
+            all have... our business. we aspire to contribute to everyone, a
+            smooth-sailing and hassle-free experience in the washroom because we
+            understand the value of such a luxury. We promise you multiple
+            things from the start till the end of this journey, so join us!
+          </p>
+          <br />
+          <div class="check">
+            <img
+              class="check-img"
+              src="images/check.png"
+              alt="checkmark"
+              style="height: 25px; width: auto"
+            />
+            customer/client orientated.
+          </div>
+          <div class="check">
+            <img
+              class="check-img"
+              src="images/check.png"
+              alt="checkmark"
+              style="height: 25px; width: auto"
+            />
+            provide high-quality products and services.
+          </div>
+          <div class="check">
+            <img
+              class="check-img"
+              src="images/check.png"
+              alt="checkmark"
+              style="height: 25px; width: auto"
+            />
+            actively working towards our end goal.
+          </div>
+        </div>
+        <div class="col-6">
+          <img
+            src="images/about-us.png"
+            class="img-fluid text-wrap"
+            alt="about-us-image"
+            style="height: 600px; width: auto"
+          />
         </div>
       </div>
     </div>
