@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --primary: #7f3be0;
+  --primary-dark: #6c1dda;
+  --black: #010101;
+  --gray-one: #788190;
+  --gray-two: #d3d4db;
+  --white: #ffffff;
+  --body: #fefefe;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--body);
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.btn-primary,
+.btn-outline-secondary {
+  padding: 10px 22px;
+}
+
+.btn-primary {
+  border: none;
+  background-color: var(--primary);
+}
+
+.btn-primary:hover {
+  border: none;
+  background-color: var(--primary-dark);
+  transform: translateY(-1.2px);
+}
+
+.buttons .btn-primary:focus {
+  background-color: var(--primary-dark);
+}
+
+.btn-outline-secondary {
+  border: none;
+  color: var(--black);
+  background-color: var(--gray-two);
+}
+
+.btn-outline-secondary:hover {
+  border: none;
+  color: var(--black);
+  background-color: var(--gray-one);
+  transform: translateY(-1.2px);
+}
+
+.btn-outline-secondary:focus {
+  border: none;
+  color: var(--black);
+  background-color: var(--gray-two);
+}
+
+.navbar .btn-outline-secondary {
+  border: none;
+  color: var(--white);
+  background-color: var(--primary);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 10px 18px;
+}
+
+.navbar .btn-outline-secondary:hover {
+  border: none;
+  color: var(--white);
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+.navbar {
+  padding: 46px 0;
+}
+
+.nav-link {
+  margin-left: 40px;
+  font-size: 16px;
+  color: var(--black);
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--primary);
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--primary);
+  transform: translateY(-1.2px);
+}
+
+.navbar .navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--primary);
+}
