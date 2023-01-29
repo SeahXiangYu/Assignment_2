@@ -9,7 +9,9 @@ function successLocation(position) {
   setupMap([position.coords.longitude, position.coords.latitude]);
 }
 
-function errorLocation() {}
+function errorLocation() {
+  setupMap([103.851784, 1.287953]);
+}
 
 function setupMap(center) {
   const map = new mapboxgl.Map({
