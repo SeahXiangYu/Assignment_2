@@ -77,7 +77,11 @@ body {
 }
 
 .navbar {
-    padding: 46px 0;
+    padding: 28px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
 }
 
 .nav-link {
@@ -103,6 +107,8 @@ body {
 
 section.hero {
     padding: 40px 0;
+    padding-top: 160px;
+    padding-bottom: 60px;
 }
 
 section.hero .text h1 {
@@ -142,6 +148,7 @@ section.hero img {
 
 section.setup {
     padding: 80px 0;
+    margin-top: 80px;
 }
 
 
@@ -241,3 +248,14 @@ section.product .text-header h1 {
      padding-bottom: 60px;
      padding-top: 5px;
  } 
+
+
+ .promotion {
+    background-color: var(--primary);
+    padding-top: 18px;
+    padding-bottom: 4px;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: bold;
+    width: 100vw;
+ }
