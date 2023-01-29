@@ -107,8 +107,8 @@ section.hero {
 
 section.hero .text h1 {
     font-weight: 800;
-    font-size: 66px;
-    line-height: 88px;
+    font-size: 62px;
+    line-height: 82px;
     color: var(--black);
     padding-top: 50px;
     padding-bottom: 10px;
@@ -141,7 +141,7 @@ section.hero img {
 }
 
 section.setup {
-    padding: 20px 0;
+    padding: 80px 0;
 }
 
 
@@ -177,5 +177,67 @@ section.setup h5 {
 section.setup p {
     font-size: 14px;
     color: var(--primary);
-    margin: 0 50px;
+    max-width: 300px;
 }
+
+
+section.product {
+    padding: 160px 0;
+}
+
+section.product h2 {
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+    max-width: 220px;
+    padding-bottom: 20px;
+}
+
+section.product span {
+    font-size: 12px;
+    color: var(--gray-one);
+}
+
+section.product .card-text {
+    color: var(--primary);
+    line-height: 5px;
+}
+
+section.product .cost {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+section.product .card {
+    box-shadow: 0 10px 10px var(--gray-one);
+}
+
+section.product .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 22px 22px var(--gray-one);
+    transition: 0.5s ease;
+}
+
+
+section.product .btn-primary {
+    padding: 10px 14px;
+    border-radius: 30px;
+    margin-left: 120px;
+}
+
+section.product .cost .btn-primary.active {
+    background-color: var(--primary-dark);
+}
+
+section.product .text-header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--black);
+ }
+ 
+ section.product .text-header p {
+     color: var(--primary);
+     padding: 38px 0;
+     padding-bottom: 60px;
+     padding-top: 5px;
+ } 
