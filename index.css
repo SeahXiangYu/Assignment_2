@@ -15,3 +15,36 @@ body {
     background-color: var(--body);
 }
 
+.btn {
+    border-radius: 20px;
+}
+
+.btn-primary,
+.btn-outline-secondary {
+    padding: 8px 20px;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+}
+
+.btn-outline-secondary {
+    border: 1px solid var(--gray-two);
+    color: var(--black);
+}
+
+.btn-outline-secondary:hover {
+    border: 1px solid var(--gray-two);
+    color: var(--black);
+    background-color: var(--gray-two);
+}
+
+.btn-outline-secondary:focus {
+    border: 1px solid var(--gray-two);
+    color: var(--black);
+    background-color: var(--gray-two);
+}
