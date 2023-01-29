@@ -13,6 +13,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--body);
+  margin: 0;
 }
 
 .btn {
@@ -125,10 +126,25 @@ body {
   color: #7f3be0;
 }
 
-.container {
+.big-thing {
   margin-bottom: 50px;
 }
 
-.img-fluid {
-  margin-bottom: 70px;
+.country {
+  margin-bottom: 50px;
+}
+
+.about-us {
+  margin-top: 75px;
+}
+
+.about-us-title {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.about-us-desc {
+  font-size: 18px;
+  font-weight: 500;
+  color: #7f3be0;
 }
