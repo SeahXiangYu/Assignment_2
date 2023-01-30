@@ -129,6 +129,10 @@ body {
   color: #7f3be0;
 }
 
+.big-text {
+  margin-top: 175px;
+}
+
 .big-thing {
   margin-bottom: 100px;
 }
