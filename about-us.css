@@ -199,3 +199,66 @@ body {
   font-size: 1.125rem;
   color: #7f3be0;
 }
+
+.service {
+  margin-top: 12.5rem;
+}
+
+.service-txt-top {
+  font-size: 3.125rem;
+  font-weight: 800;
+}
+
+.service-txt-bot {
+  font-size: 1.25rem;
+  color: #7f3be0;
+}
+
+.fixtures {
+  width: 17rem;
+  height: auto;
+  background-color: #f7f7f7;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 10rem;
+}
+
+.cleanse {
+  width: 17rem;
+  height: auto;
+  background-color: #f7f7f7;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 5rem;
+}
+
+.elevate {
+  width: 17rem;
+  height: auto;
+  background-color: #f7f7f7;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 10rem;
+}
+
+.purple-rect {
+  background-color: #7f3be0;
+  margin-bottom: 1.25rem;
+}
+
+div .txt-top {
+  margin-top: 0.5rem;
+  font-size: 1.5625rem;
+  font-weight: 700;
+}
+
+div .txt-mid {
+  font-size: 1rem;
+  color: #7f3be0;
+}
+
+div .txt-bot {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #7f3be0;
+}
