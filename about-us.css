@@ -244,6 +244,7 @@ body {
 .purple-rect {
   background-color: #7f3be0;
   margin-bottom: 1.25rem;
+  user-select: none;
 }
 
 div .txt-top {
@@ -261,4 +262,55 @@ div .txt-bot {
   margin-bottom: 0.5rem;
   font-size: 1rem;
   color: #7f3be0;
+}
+
+.redirect {
+  margin-top: 10rem;
+  overflow-x: hidden;
+}
+
+.shop {
+  height: 30rem;
+  width: 50%;
+  background-color: #7f3be0;
+  color: #ffffff;
+  padding: 10rem;
+}
+
+.contact {
+  height: 30rem;
+  width: 50%;
+  background-color: #f7f7f7;
+  color: #7f3be0;
+  padding: 10rem;
+}
+
+.shopbtn {
+  font-weight: 600;
+  color: #7f3be0;
+  background-color: #ffffff;
+  text-decoration: none;
+  border-radius: 5rem;
+}
+
+.shopbtn:hover {
+  color: #ffffff;
+  background-color: #6c1dda;
+}
+
+.contactbtn {
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #7f3be0;
+  text-decoration: none;
+  border-radius: 5rem;
+}
+
+.contactbtn:hover {
+  color: #7f3be0;
+  background-color: #ebe8fc;
+}
+
+.button-space {
+  margin-top: 5rem;
 }
