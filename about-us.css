@@ -146,30 +146,14 @@ body {
   margin-bottom: 3.125rem;
 }
 
-@media only screen and (max-width: 48rem) {
-  .country {
-    margin-bottom: 0%;
-  }
-}
-
-@media only screen and (max-width: 48rem) {
-  .center {
-    text-align: center;
-  }
-}
-
 #map {
+  width: auto;
+  height: 35rem;
   z-index: 0;
 }
 
-@media only screen and (max-width: 48rem) {
-  #map {
-    margin-top: 3.125rem;
-  }
-}
-
 .about-us {
-  margin-top: 13.125rem;
+  margin-top: 7rem;
 }
 
 .about-us-title {
@@ -203,16 +187,6 @@ body {
 .meet-txt-bot {
   font-size: 1.25rem;
   color: #7f3be0;
-}
-
-@media only screen and (min-width: 48rem) {
-  .up {
-    margin-top: 3.125rem;
-  }
-
-  .down {
-    margin-top: 13.125rem;
-  }
 }
 
 .mem-name {
@@ -337,4 +311,42 @@ div .txt-bot {
 
 .button-space {
   margin-top: 5rem;
+}
+
+/* Mobile view amendments */
+@media only screen and (max-width: 62rem) {
+  /* Country margin */
+  .country {
+    margin-bottom: 2.5rem;
+  }
+
+  /* Align any text in mobile view to center */
+  .center {
+    text-align: center;
+  }
+
+  /* Remove anything in mobile view */
+  .remove {
+    display: none;
+  }
+
+  /* Remove up and down effect in mobile view */
+  .up,
+  .down {
+    margin-top: 1.5rem;
+  }
+
+  /* Smaller margins*/
+  .about-us,
+  .meet-team,
+  .service {
+    margin-top: 5rem;
+  }
+
+  /* Remove margin */
+  .fixtures,
+  .cleanse,
+  .elevate {
+    margin-left: 0%;
+  }
 }
