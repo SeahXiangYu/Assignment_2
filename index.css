@@ -257,5 +257,5 @@ section.product .text-header h1 {
     color: var(--white);
     font-size: 20px;
     font-weight: bold;
-    width: 100vw;
+    width: 100%;
  }
