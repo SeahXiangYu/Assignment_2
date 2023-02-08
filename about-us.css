@@ -10,6 +10,11 @@
   --body: #fefefe;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--body);
@@ -141,8 +146,26 @@ body {
   margin-bottom: 3.125rem;
 }
 
+@media only screen and (max-width: 48rem) {
+  .country {
+    margin-bottom: 0%;
+  }
+}
+
+@media only screen and (max-width: 48rem) {
+  .center {
+    text-align: center;
+  }
+}
+
 #map {
   z-index: 0;
+}
+
+@media only screen and (max-width: 48rem) {
+  #map {
+    margin-top: 3.125rem;
+  }
 }
 
 .about-us {
@@ -182,12 +205,14 @@ body {
   color: #7f3be0;
 }
 
-.up {
-  margin-top: 3.125rem;
-}
+@media only screen and (min-width: 48rem) {
+  .up {
+    margin-top: 3.125rem;
+  }
 
-.down {
-  margin-top: 13.125rem;
+  .down {
+    margin-top: 13.125rem;
+  }
 }
 
 .mem-name {
@@ -266,7 +291,6 @@ div .txt-bot {
 
 .redirect {
   margin-top: 10rem;
-  overflow-x: hidden;
 }
 
 .shop {
