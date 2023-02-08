@@ -313,6 +313,41 @@ div .txt-bot {
   margin-top: 5rem;
 }
 
+.news-sub {
+  height: 30rem;
+  width: 100%;
+  padding: 8rem;
+}
+
+.news-sub .h2 {
+  padding: 1rem;
+}
+
+.email-input {
+  width: 20rem;
+  margin-top: 1rem;
+}
+
+.rounded-pill {
+  height: 3.2rem;
+  border-radius: 5rem;
+}
+
+.submitbtn {
+  height: 3.2rem;
+  width: 6.5rem;
+  color: #ffffff;
+  background-color: #7f3be0;
+  text-decoration: none;
+  border-radius: 5rem;
+  margin-top: 1rem;
+}
+
+.submitbtn:hover {
+  color: #7f3be0;
+  background-color: #ebe8fc;
+}
+
 /* Mobile view amendments */
 @media only screen and (max-width: 62rem) {
   /* Country margin */
