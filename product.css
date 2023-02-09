@@ -64,11 +64,12 @@ body {
 .navbar .btn-outline-secondary {
     border: none;
     color: var(--white);
-    background-color: var(--primary);
+    background-color: var(--primary-dark);
     font-size: 16px;
     font-weight: 400;
     line-height: 18px;
     padding: 10px 18px;
+    box-shadow: 5px 10px black;
 }
 
 .navbar .btn-outline-secondary:hover {
@@ -239,6 +240,11 @@ section.product .btn-primary {
     padding: 10px 14px;
     border-radius: 30px;
     margin-left: 120px;
+    background-color: var(--primary);
+}
+
+section.product .btn-primary:hover {
+    color: var(--white);
 }
 
 section.product .cost .btn-primary.active {
@@ -332,14 +338,6 @@ section.game .buttons .btn-primary.active {
   background-color: var(--primary-dark);
 }
 
-.product .buttons .btn-primary {
-  background-color: var(--primary);
-  color: white;
-}
 
-.product .buttons .btn-primary:hover,
-.product .buttons .btn-primary.active {
-  background-color: var(--primary-dark);
-}
 
 
