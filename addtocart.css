@@ -151,13 +151,13 @@ p {
   }
   
   .animation:nth-child(1) {
-    transition-delay: 200ms;
-  }
-  
-  .animation:nth-child(2) {
     transition-delay: 600ms;
   }
   
-  .animation:nth-child(3) {
+  .animation:nth-child(2) {
     transition-delay: 800ms;
+  }
+  
+  .animation:nth-child(3) {
+    transition-delay: 200ms;
   }
