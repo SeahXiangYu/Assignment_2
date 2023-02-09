@@ -17,7 +17,7 @@ body {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: var(--body);
+  background-color: #7f3be0;
 }
 
 .btn {
@@ -107,4 +107,67 @@ body {
   font-size: 28px;
   font-weight: bold;
   color: var(--primary);
+}
+
+section.create-acc {
+  margin-top: 10rem;
+}
+
+.h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  color: #ffffff;
+  margin-top: 5rem;
+}
+
+.h2 {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.h3 {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 0.5rem;
+}
+
+.shift {
+  margin-left: -13rem;
+  margin-top: 3rem;
+  width: 51.5rem;
+  height: auto;
+  border-radius: 5rem;
+}
+
+form {
+  margin-top: 3rem;
+}
+
+label {
+  color: #ffffff;
+}
+
+.rounded-pill {
+  width: 20rem;
+  height: 2.8rem;
+}
+
+form .btn.btn-primary {
+  width: 20rem;
+  height: 2.8rem;
+  background-color: #000000;
+  border-radius: 5rem;
+  margin-bottom: 1rem;
+}
+
+span a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+span a:hover {
+  color: #788190;
+  text-decoration: none;
 }
