@@ -74,7 +74,6 @@ $(document).ready(function () {
           Username: username,
           Password: password,
         };
-        jsondata.Points = 0;
 
         let settings = {
           async: true,
@@ -100,7 +99,7 @@ $(document).ready(function () {
           console.log(response);
 
           $("#account-submit").prop("disabled", false);
-          window.location = "../html/home.html";
+          window.location = "index.html";
           var signinname = name;
           sessionStorage.setItem("Name", signinname);
           console.log(signinname);

@@ -33,7 +33,7 @@ $(document).ready(function () {
     let settings = {
       async: true,
       crossDomain: true,
-      url: "https://interactivedev-0fcf.restdb.io/rest/accounts",
+      url: "https://customer-b2c0.restdb.io/rest/customer",
       method: "GET",
       headers: {
         "content-type": "application/json",
@@ -50,14 +50,10 @@ $(document).ready(function () {
         ) {
           exists = true;
           $(".dots").hide();
-          window.location = "../html/home.html";
+          window.location = "login.html";
           var nnname = response[i].Name;
-          var points = response[i].Points;
-          window.points = response[i].Points;
           window.nnname = response[i].Name;
-          sessionStorage.setItem("Points", points);
           sessionStorage.setItem("Name", nnname);
-          console.log(points);
         }
       }
       if (exists == false) {
