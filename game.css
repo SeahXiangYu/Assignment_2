@@ -119,3 +119,48 @@ body {
   font-weight: bold;
   width: 100%;
 }
+
+.h1 {
+  font-weight: 700;
+  font-size: 3.125rem;
+}
+
+.h2 {
+  font-size: 1.75rem;
+  color: #7f3be0;
+  font-weight: 400;
+}
+
+.h3 {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: #7f3be0;
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.account,
+.redeem {
+  margin-top: 6rem;
+}
+
+.acc-info.container {
+  margin-top: 4rem;
+  border: 1px #707070 solid;
+}
+
+.line {
+  border-right: #7f3be0 0.125rem solid;
+}
+
+.game {
+  margin-top: 10rem;
+}
+
+.placeholder {
+  height: 40rem;
+  width: 100%;
+}
