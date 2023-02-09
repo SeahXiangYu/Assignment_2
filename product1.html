@@ -15,6 +15,7 @@
     <!-- Personal CSS -->
     <link rel="stylesheet" href="product1.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="app.js"></script>
   </head>
 
   <body>
@@ -53,11 +54,11 @@
             <div class="container">
               <div class="row">
                 <!-- Image -->
-                <div class="col-md-6">
+                <div class="col-md-6 animation hidden">
                   <img src="images/matte-black-toilet-seat.png" alt="hero-image" class="w-100" />
                 </div>
                 <!-- Text -->
-                <div class="col-md-6">
+                <div class="col-md-6 animation hidden">
                   <div class="text">
                     <p class="tag">essentials'.</p>
                     <p class="name">matte black toilet seat.</p>
@@ -69,8 +70,8 @@
                     <p class="price">price.</p>
                     <p class="price-text">$802.</p>
                   </div>
-                  <div class="buttons">
-                    <a href="#product" class="btn btn-primary">add to cart.<i class="fa fa-shopping-cart"></i></a>
+                  <div class="buttons animation hidden">
+                    <a href="#" class="btn btn-primary">add to cart.<i class="fa fa-shopping-cart"></i></a>
                   </div>
                 </div>
               </div>
@@ -82,10 +83,10 @@
           </div>
 
 
-          <div class="mb-3" id="comment">
+          <div class="mb-3 animation hidden" id="comment">
             <h1>got something to say about the product?</h1>
             <span>tell the world about it, we'll love to hear from you too!</span>
-            <form>
+            <form class="animation hidden">
                 <div class="username">    
                     <label for="validationDefaultUsername" class="form-label">Username</label>
                     <div class="input-group">
@@ -94,23 +95,23 @@
                     </div>
                 </div>
                 <textarea class="form-control needs-validation" id="exampleFormControlTextarea1" rows="6" placeholder="leave a review!"></textarea>
-                <div class="buttons">
-                    <a href="#" class="btn btn-primary" type="submit">comment.</a>
-                </div>
                 </form>
+              <div class="buttons animation hidden">
+                  <a href="#" class="btn btn-primary" type="submit">comment.</a>
+              </div>
           </div>
 
 
       <!-- Product Section -->
       <section class="product" id="product">
         <div class="container">
-          <div class="text-header text-left"> 
+          <div class="text-header text-left animation hidden"> 
             <h1>check out other products you may like.</h1>
               <p>here's some of our recommendations, take a look!</p>
           </div>
           <div class="items text-left"> 
             <div class="row"> 
-                <div class="col-md-4">  
+                <div class="col-md-4 animation hidden">  
                     <div class="card" style="width: 18rem;">
                       <img src="images/stainless-steel-toilet-roll-holder.png" class="card-img-top" alt="...">
                       <div class="card-body">
@@ -122,7 +123,7 @@
                       </div>
                     </div>
                   </div>
-              <div class="col-md-4">  
+              <div class="col-md-4 animation hidden">  
                 <div class="card" style="width: 18rem;">
                   <img src="images/plain-white-toilet-seat.png" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -134,7 +135,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">  
+              <div class="col-md-4 animation hidden">  
                 <div class="card" style="width: 18rem;">
                   <img src="images/slick-back-toilet-bidet.png" class="card-img-top" alt="...">
                   <div class="card-body">
