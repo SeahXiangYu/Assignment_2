@@ -74,7 +74,7 @@ $(document).ready(function () {
           console.log(response);
 
           $("#signup").prop("disabled", false);
-          window.location = "signup.html";
+          window.location = "index.html";
         });
       }
     });
