@@ -1,31 +1,22 @@
-// Get the modal
-var modal = document.getElementById("login");
-
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-};
-
 $(document).ready(function () {
   const APIKEY = "63e4b31d478852088da67f11";
 
   $(".dots").hide();
 
-  $("#account-login").on("click", function (e) {
+  $("#login").on("click", function (e) {
     e.preventDefault();
 
     $(".dots").show();
-    let username = $("#username").val();
+    let email = $("#email").val();
     let password = $("#password").val();
 
-    if (username == "") {
-      alert("Username cannot be empty");
+    if (email == "") {
+      alert("email cannot be empty.");
       $(".dots").hide();
       return;
     }
     if (password == "") {
-      alert("Password cannot be empty");
+      alert("password cannot be empty.");
       $(".dots").hide();
       return;
     }
@@ -44,22 +35,16 @@ $(document).ready(function () {
     $.ajax(settings).done(function (response) {
       let exists = false;
       for (var i = 0; i < response.length; i++) {
-        if (
-          response[i].Username === username &&
-          response[i].Password === password
-        ) {
+        if (response[i].Email === email && response[i].Password === password) {
           exists = true;
           $(".dots").hide();
-          window.location = "login.html";
-          var nnname = response[i].Name;
-          window.nnname = response[i].Name;
-          sessionStorage.setItem("Name", nnname);
+          window.location = "index.html";
         }
       }
       if (exists == false) {
         $(".dots").hide();
-        alert("Incorrect username or password");
-        $("#username").val("");
+        alert("Incorrect email or password");
+        $("#email").val("");
         $("#password").val("");
         return;
       }
