@@ -249,17 +249,6 @@ section.product .text-header p {
   padding-top: 5px;
 }
 
-<<<<<<< HEAD
- .promotion {
-    background-color: var(--primary);
-    padding-top: 18px;
-    padding-bottom: 4px;
-    color: var(--white);
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
- }
-=======
 .promotion {
   background-color: var(--primary);
   padding-top: 18px;
@@ -267,6 +256,5 @@ section.product .text-header p {
   color: var(--white);
   font-size: 20px;
   font-weight: bold;
-  width: 100vw;
+  width: 100%;
 }
->>>>>>> f110aafd1ec500c993cc4e98dfc29fee6c2f308f
