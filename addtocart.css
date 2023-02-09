@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+  --primary: rgb(255, 97, 34);
+  --primary-dark: rgb(255, 97, 34);
+  --black: #010101;
+  --gray-one: #788190;
+  --gray-two: #d3d4db;
+  --white: #ffffff;
+  --body: #fefefe;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--body);
+}
+
+.btn {
+  border-radius: 25px;
+}
+
+.btn-primary,
+.btn-outline-secondary {
+  padding: 12px 32px;
+}
+
+.btn-primary {
+  border: none;
+  background-color: rgb(255, 97, 34);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  border: none;
+  background-color: rgb(250, 88, 25);
+  transform: translateY(-2.5px);
+  transition: 500ms ease;
+  color: white;
+}
+
+.buttons .btn-primary:focus {
+  background-color: rgb(255, 97, 34);
+  color: white;
+}
+
+.btn-outline-secondary {
+  border: none;
+  color: var(--black);
+  background-color: var(--gray-two);
+}
+
+.btn-outline-secondary:hover {
+  border: none;
+  color: var(--black);
+  background-color: var(--gray-one);
+  transform: translateY(-1.2px);
+}
+
+.btn-outline-secondary:focus {
+  border: none;
+  color: var(--black);
+  background-color: var(--gray-two);
+}
+
+.navbar .btn-outline-secondary {
+  border: none;
+  color: var(--white);
+  background-color: var(--primary-dark);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 10px 18px;
+  box-shadow: 5px 10px black;
+}
+
+.navbar .btn-outline-secondary:hover {
+  border: none;
+  color: var(--white);
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+.navbar {
+  padding: 28px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-link {
+  margin-left: 40px;
+  font-size: 16px;
+  color: var(--black);
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--primary);
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--primary);
+  transform: translateY(-1.2px);
+}
+
+.navbar .navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+lottie-player {
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 42px;
+    color: rgb(255, 97, 34);
+}
+
+p {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: var(--gray-one);
+    padding: 20px 10vw;
+    max-width: fit-content;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+  }
+  
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+  
+  .animation:nth-child(1) {
+    transition-delay: 200ms;
+  }
+  
+  .animation:nth-child(2) {
+    transition-delay: 600ms;
+  }
+  
+  .animation:nth-child(3) {
+    transition-delay: 800ms;
+  }
