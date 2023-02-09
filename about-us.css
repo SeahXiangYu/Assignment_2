@@ -199,6 +199,14 @@ body {
   color: #7f3be0;
 }
 
+.up {
+  margin-top: 3.125rem;
+}
+
+.down {
+  margin-top: 13.125rem;
+}
+
 .service {
   margin-top: 12.5rem;
 }
