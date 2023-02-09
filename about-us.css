@@ -146,30 +146,14 @@ body {
   margin-bottom: 3.125rem;
 }
 
-@media only screen and (max-width: 48rem) {
-  .country {
-    margin-bottom: 0%;
-  }
-}
-
-@media only screen and (max-width: 48rem) {
-  .center {
-    text-align: center;
-  }
-}
-
 #map {
+  width: auto;
+  height: 35rem;
   z-index: 0;
 }
 
-@media only screen and (max-width: 48rem) {
-  #map {
-    margin-top: 3.125rem;
-  }
-}
-
 .about-us {
-  margin-top: 13.125rem;
+  margin-top: 7rem;
 }
 
 .about-us-title {
@@ -205,16 +189,6 @@ body {
   color: #7f3be0;
 }
 
-@media only screen and (min-width: 48rem) {
-  .up {
-    margin-top: 3.125rem;
-  }
-
-  .down {
-    margin-top: 13.125rem;
-  }
-}
-
 .mem-name {
   font-size: 1.5625rem;
   font-weight: 700;
@@ -223,6 +197,14 @@ body {
 .mem-title {
   font-size: 1.125rem;
   color: #7f3be0;
+}
+
+.up {
+  margin-top: 3.125rem;
+}
+
+.down {
+  margin-top: 13.125rem;
 }
 
 .service {
@@ -299,6 +281,7 @@ div .txt-bot {
   background-color: #7f3be0;
   color: #ffffff;
   padding: 10rem;
+  border: #707070 1px solid;
 }
 
 .contact {
@@ -307,6 +290,7 @@ div .txt-bot {
   background-color: #f7f7f7;
   color: #7f3be0;
   padding: 10rem;
+  border: #707070 1px solid;
 }
 
 .shopbtn {
@@ -337,4 +321,78 @@ div .txt-bot {
 
 .button-space {
   margin-top: 5rem;
+}
+
+.news-sub {
+  height: 30rem;
+  width: 100%;
+  padding: 8rem;
+}
+
+.news-sub .h2 {
+  padding: 1rem;
+}
+
+.email-input {
+  width: 25rem;
+  margin-top: 1.5rem;
+}
+
+.rounded-pill {
+  height: 4rem;
+  border-radius: 5rem;
+  border-color: #000000;
+}
+
+.submitbtn {
+  height: 4rem;
+  width: 7.5rem;
+  color: #ffffff;
+  background-color: #7f3be0;
+  text-decoration: none;
+  border-radius: 5rem;
+  margin-top: 1.5rem;
+}
+
+.submitbtn:hover {
+  color: #7f3be0;
+  background-color: #ebe8fc;
+}
+
+/* Mobile view amendments */
+@media only screen and (max-width: 62rem) {
+  /* Country margin */
+  .country {
+    margin-bottom: 2.5rem;
+  }
+
+  /* Align any text in mobile view to center */
+  .center {
+    text-align: center;
+  }
+
+  /* Remove anything in mobile view */
+  .remove {
+    display: none;
+  }
+
+  /* Remove up and down effect in mobile view */
+  .up,
+  .down {
+    margin-top: 1.5rem;
+  }
+
+  /* Smaller margins*/
+  .about-us,
+  .meet-team,
+  .service {
+    margin-top: 5rem;
+  }
+
+  /* Remove margin */
+  .fixtures,
+  .cleanse,
+  .elevate {
+    margin-left: 0%;
+  }
 }
