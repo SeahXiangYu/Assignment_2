@@ -281,6 +281,7 @@ div .txt-bot {
   background-color: #7f3be0;
   color: #ffffff;
   padding: 10rem;
+  border: #707070 1px solid;
 }
 
 .contact {
@@ -289,6 +290,7 @@ div .txt-bot {
   background-color: #f7f7f7;
   color: #7f3be0;
   padding: 10rem;
+  border: #707070 1px solid;
 }
 
 .shopbtn {
@@ -332,23 +334,24 @@ div .txt-bot {
 }
 
 .email-input {
-  width: 20rem;
-  margin-top: 1rem;
+  width: 25rem;
+  margin-top: 1.5rem;
 }
 
 .rounded-pill {
-  height: 3.2rem;
+  height: 4rem;
   border-radius: 5rem;
+  border-color: #000000;
 }
 
 .submitbtn {
-  height: 3.2rem;
-  width: 6.5rem;
+  height: 4rem;
+  width: 7.5rem;
   color: #ffffff;
   background-color: #7f3be0;
   text-decoration: none;
   border-radius: 5rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .submitbtn:hover {
