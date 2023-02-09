@@ -1,44 +1,22 @@
 $(document).ready(function () {
   const APIKEY = "63e4b31d478852088da67f11";
 
-  $(".dots").hide();
-
-  $("#account-submit").on("click", function (e) {
+  $("#signup").on("click", function (e) {
     e.preventDefault();
 
-    $(".dots").show();
-    let name = $("#name").val();
-    let username = $("#username").val();
+    let email = $("#email").val();
     let password = $("#password").val();
-    let repeatPassword = $("#repeat-password").val();
 
-    if (name == "") {
-      alert("Name cannot be empty");
-      $(".dots").hide();
-      return;
-    }
-    if (username == "") {
-      alert("Username cannot be empty");
-      $(".dots").hide();
+    if (email == "") {
+      alert("email cannot be empty.");
       return;
     }
     if (password == "") {
-      alert("Password cannot be empty");
-      $(".dots").hide();
+      alert("password cannot be empty.");
       return;
     }
-    if (password.length < 10) {
-      alert("Password length must be 10 characters or more");
-      $(".dots").hide();
-      return;
-    }
-    if (repeatPassword == "") {
-      alert("Repeat password cannot be empty");
-      $(".dots").hide();
-      return;
-    }
-    if (password != repeatPassword) {
-      alert("Repeat password must match password");
+    if (password.length < 8) {
+      alert("password must be 8-20 characters long.");
       $(".dots").hide();
       return;
     }
@@ -58,20 +36,18 @@ $(document).ready(function () {
     $.ajax(settings).done(function (response) {
       let exists = false;
       for (var i = 0; i < response.length; i++) {
-        if (response[i].Username === username) {
+        if (response[i].Email === email) {
           exists = true;
           break;
         }
       }
 
       if (exists) {
-        alert("Username already exists. Please choose another one.");
-        $(".dots").hide();
+        alert("email already exists.");
         return;
       } else {
         let jsondata = {
-          Name: name,
-          Username: username,
+          Email: email,
           Password: password,
         };
 
@@ -88,21 +64,17 @@ $(document).ready(function () {
           processData: false,
           data: JSON.stringify(jsondata),
           beforeSend: function () {
-            alert("Sucessfully registered for an account");
-            $(".dots").hide();
+            alert("sucessfully created a flush account.");
 
-            $("#add-contact-form").trigger("reset");
+            $("#add-customer").trigger("reset");
           },
         };
 
         $.ajax(settings).done(function (response) {
           console.log(response);
 
-          $("#account-submit").prop("disabled", false);
+          $("#signup").prop("disabled", false);
           window.location = "index.html";
-          var signinname = name;
-          sessionStorage.setItem("Name", signinname);
-          console.log(signinname);
         });
       }
     });
