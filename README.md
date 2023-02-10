@@ -18,10 +18,10 @@
 * No content was taken from 3rd party sites.
 ### Media
 *  https://undraw.co/search
-* * Wash_Hands
-* * Contract
-* * My password
-* * Design objectives
+   * Wash_Hands
+   * Contract
+   * My password
+   * Design objectives
 *  https://www.flaticon.com/free-icons/check
 ### Acknowledgements
 * The game was inspired by https://github.com/WebDevSimplified/wordle-clone
