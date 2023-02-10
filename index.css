@@ -397,3 +397,7 @@ footer .copy {
 .animation:nth-child(3) {
   transition-delay: 600ms;
 }
+
+.animation:nth-child(4) {
+  transition-delay: 800ms;
+}
