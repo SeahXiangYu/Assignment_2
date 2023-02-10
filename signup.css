@@ -21,7 +21,7 @@ body {
 }
 
 .btn {
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .btn-primary,
@@ -109,7 +109,7 @@ body {
   color: var(--primary);
 }
 
-section.create-acc {
+div.create-acc {
   margin-top: 10rem;
 }
 

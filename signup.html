@@ -25,10 +25,35 @@
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container">
         <a class="navbar-brand" href="index.html">flush.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="index.html">home.</a>
+            <a class="nav-link" href="about-us.html">about us.</a>
+            <a class="nav-link active me-5" aria-current="page" href="game.html"
+              >game.</a
+            >
+          </div>
+          <a
+            href="product.html"
+            class="btn btn-outline-secondary shadow-sm d-sm d-block"
+            >store.</a
+          >
+        </div>
       </div>
     </nav>
 
-    <section class="create-acc">
+    <div class="create-acc">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -44,7 +69,6 @@
                   type="email"
                   class="form-control rounded-pill"
                   id="email"
-                  aria-describedby="emailHelp"
                   placeholder="username@email.com"
                 />
               </div>
@@ -67,7 +91,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="signup.js"></script>
