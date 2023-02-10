@@ -2,6 +2,9 @@
 flush. is a wesbite that hat sells toilet related products and offers a wide range of items to customers who are looking to improve their bathroom experience. This website provides an easy and convenient shopping platform for individuals who are searching for innovative and high-quality products that can enhance their toilets. 
 
 Additionally, this website goes beyond just selling products, by offering a unique and fun way for customers to engage with the site. It features a game component, where customers can earn points by playing a "Wordle" game daily. These points can then be redeemed for discounts, special offers, and even free products. This gamification aspect of the website not only adds an extra layer of excitement for customers, but also encourages them to stay engaged and connected to the site.
+
+## Github Page
+* https://github.com/SeahXiangYu/Assignment_2
 ## Design Process
 * As a user seeking to purchase toilet products, I would prefer a website that is easily accessible at any time, enabling me to buy the desired items with ease. This would allow me to receive the products at my convenience, without the hassle of leaving my home.
 
@@ -12,7 +15,6 @@ Additionally, this website goes beyond just selling products, by offering a uniq
 * As a user, the user orientated design and experience is crucial to me. I prefer websites with animation and interactivity. I like consistent and simple themes that keep the website visually appealing yet easy to navigate. Media such as enticing animations and graphics help grab my attention, a variety of icons and different fonts used also play a major role in the overall design of the website. This would enhance my overall experience and encourage me to visit this website for more products in the future.
 
 ## Features
-
 ### Existing Features
 * Feature 1 - The DOM is used in animating a website for convenient and efficient manipulation of elements for dynamic animations that enhance user experience.
 * Feature 2 - The RestDB is utilized to securely store the email and password information of customers on the login and sign-up pages. Additionally, AJAX is employed to verify the existence of a user in the RestDB database on the website.
