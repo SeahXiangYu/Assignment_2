@@ -18,6 +18,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script defer src="app.js"></script>
   </head>
 
   <body>
@@ -59,24 +60,24 @@
         <div class="row">
           <!-- Text -->
           <div class="col-md-6">
-            <div class="text">
+            <div class="text animation hidden">
               <h1>revolutionise how you get your business done.</h1>
-              <p>
+              <p class="animation hidden">
                 flush provides you with top-notch services and cutting-edge
                 toiletry products because we care about your business. we offer
                 a variety of products ranging from bidets to rolls, covering
                 every inch of your sanctuary. come join us!
               </p>
             </div>
-            <div class="buttons">
-              <a href="about-us.html" class="btn btn-primary">download our app!</a>
+            <div class="buttons animation hidden">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-primary">download our app!</a>
               <a href="product.html" class="btn btn-outline-secondary ms-3"
                 >shop now.</a
               >
             </div>
           </div>
           <!-- Image -->
-          <div class="col-md-6">
+          <div class="col-md-6 animation hidden">
             <img src="images/hero-image.png" alt="hero-image" class="w-100" />
           </div>
         </div>
@@ -93,17 +94,17 @@
     <!-- Set Up Section -->
     <section class="setup">
       <div class="container">
-        <div class="text-header text-left">
+        <div class="text-header text-left animation hidden">
           <h1>we're a step ahead.</h1>
           <p>why choose us?</p>
         </div>
         <div class="items text-left">
           <div class="row">
             <div class="col-md-4">
-              <div class="icons">
+              <div class="icons animation hidden">
                 <img src="images/money-bag.png" />
               </div>
-              <div class="desc">
+              <div class="desc animation hidden">
                 <h5>affordable prices.</h5>
                 <p>
                   we ensure the lowest prices for both our toiletry products and
@@ -112,10 +113,10 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="icons">
+              <div class="icons animation hidden">
                 <img src="images/shield.png" />
               </div>
-              <div class="desc">
+              <div class="desc animation hidden">
                 <h5>customer protection.</h5>
                 <p>
                   we'll protect your data, products, services and shipments to
@@ -124,10 +125,10 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="icons">
+              <div class="icons animation hidden">
                 <img src="images/smiley.png" />
               </div>
-              <div class="desc">
+              <div class="desc animation hidden">
                 <h5>client satisfaction.</h5>
                 <p>
                   we've never failed to provide our customers with exactly what
@@ -143,13 +144,13 @@
     <!-- Product Section -->
     <section class="product">
       <div class="container">
-        <div class="text-header text-left">
+        <div class="text-header text-left animation hidden">
           <h1>our latest arrivals.</h1>
           <p>stay up to date with our newest products!</p>
         </div>
         <div class="items text-left">
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 animation hidden">
               <div class="card" style="width: 18rem">
                 <img
                   src="images/plain-white-toilet-seat.png"
@@ -157,6 +158,7 @@
                   alt="..."
                 />
                 <div class="card-body">
+                  <hr></hr>
                   <span>classics.</span>
                   <h2 class="card-title">plain white toilet seat.</h2>
                   <p class="card-text">price:</p>
@@ -169,7 +171,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 animation hidden">
               <div class="card" style="width: 18rem">
                 <img
                   src="images/stainless-steel-toilet-roll-holder.png"
@@ -177,6 +179,7 @@
                   alt="..."
                 />
                 <div class="card-body">
+                  <hr></hr>
                   <span>kids' power pack.</span>
                   <h2 class="card-title">
                     stainless steel toilet roll holder.
@@ -191,7 +194,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 animation hidden">
               <div class="card" style="width: 18rem">
                 <img
                   src="images/matte-black-toilet-seat.png"
@@ -199,6 +202,7 @@
                   alt="..."
                 />
                 <div class="card-body">
+                  <hr></hr>
                   <span>essentials'.</span>
                   <h2 class="card-title">matte black toilet seat.</h2>
                   <p class="card-text">price:</p>
@@ -220,7 +224,7 @@
     <section class="login">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col animation hidden">
             <img
               class="shift"
               src="images/create-account.png"
@@ -228,10 +232,10 @@
               style="width: auto; height: 45rem"
             />
           </div>
-          <div class="col" style="margin-left: 5rem">
+          <div class="col animation hidden" style="margin-left: 5rem">
             <div class="h1">login to flush.</div>
             <div class="h2">join us now!</div>
-            <form>
+            <form class="animation hidden">
               <div class="mb-3">
                 <label for="email" class="form-label">email.</label>
                 <input
@@ -251,7 +255,7 @@
                   placeholder="Must be 8-20 characters long."
                 />
               </div>
-              <div class="mb-3 form-check">
+              <div class="mb-3 form-check remember-me">
                 <input type="checkbox" class="form-check-input" id="checkbox" />
                 <label class="form-check-label" for="checkbox"
                   >remember me.</label
@@ -264,7 +268,7 @@
                 id="login"
               />
             </form>
-            <div class="h3">
+            <div class="h3 animation hidden">
               don't have an account?
               <span><a href="signup.html">sign up now</a></span>
             </div>
