@@ -146,6 +146,12 @@ body {
   margin-bottom: 3.125rem;
 }
 
+button {
+  border: none;
+  background-color: #ffffff;
+  padding: 0%;
+}
+
 #map {
   width: auto;
   height: 35rem;

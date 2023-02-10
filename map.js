@@ -10,7 +10,31 @@ function successLocation(position) {
 }
 
 function errorLocation() {
-  setupMap([103.83218766870145, 1.3050242940683745]);
+  setupMap([103.83839082284537, 1.301453591341515]);
+}
+
+function toSingapore() {
+  setupMap([103.83839082284537, 1.301453591341515]);
+}
+
+function toMalaysia() {
+  setupMap([101.50794176822167, 2.8132757331105274]);
+}
+
+function toJapan() {
+  setupMap([135.7850891990488, 34.995084533844796]);
+}
+
+function toKorea() {
+  setupMap([127.05877708420171, 37.58408667175697]);
+}
+
+function toGermany() {
+  setupMap([10.791526460599616, 52.427462346378725]);
+}
+
+function toFrance() {
+  setupMap([2.2945027443635087, 48.85853236388674]);
 }
 
 function setupMap(center) {
@@ -18,6 +42,6 @@ function setupMap(center) {
     container: "map", // container ID
     style: "mapbox://styles/mapbox/streets-v12", // style URL
     center: center,
-    zoom: 10,
+    zoom: 16,
   });
 }
