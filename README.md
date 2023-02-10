@@ -8,7 +8,18 @@ Additionally, this website goes beyond just selling products, by offering a uniq
 * As a user who enjoys an element of fun when shopping, I would appreciate a website that incorporates a game feature, where I can play and earn points that can be redeemed for rewards such as discounts. This would enhance my shopping experience, making browsing the website even more enjoyable, as I know there are always opportunities to earn rewards.
 
 * As a user interested in learning more about the website and its credibility, I would prefer a site with an "About Us" page that provides information on its history, services, and the team behind it all. This would enable me to gain a deeper understanding of the company and its offerings, allowing me to make more informed decisions when considering its services.
+
+* As a user, the user orientated design and experience is crucial to me. I prefer websites with animation and interactivity. I like consistent and simple themes that keep the website visually appealing yet easy to navigate. Media such as enticing animations and graphics help grab my attention, a variety of icons and different fonts used also play a major role in the overall design of the website. This would enhance my overall experience and encourage me to visit this website for more products in the future.
+
 ## Features
+Point redemption: 
+Go to the "Game" page.
+Try to redeem an item, any item.
+This feature has not been made yet!
+
+Our website looks consistent throughout large and medium screens. In mobile views, most pages are also consistent but the form sections do intersect other sections at certain points.
+
+During our testing, we've not discovered any bugs or problems.
 
 ### Existing Features
 * Feature 1 - The DOM is used in animating a website for convenient and efficient manipulation of elements for dynamic animations that enhance user experience.
@@ -39,6 +50,7 @@ Point redemption: Go to the "Game" page. Try to redeem an item, any item. This f
 Our website looks consistent throughout large and medium screens. In mobile views, most pages are also consistent but the form sections do intersect other sections at certain points.
 
 During our testing, we've not discovered any bugs or problems.
+
 
 ## Credits
 
