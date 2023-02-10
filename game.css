@@ -164,3 +164,40 @@ body {
   height: 40rem;
   width: 100%;
 }
+
+.box {
+  height: 20rem;
+  width: 13rem;
+  border: #707070 1px solid;
+  border-radius: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.box img {
+  margin-top: 2.5rem;
+  height: 7rem;
+  width: 7rem;
+}
+
+.reward-name {
+  margin-top: 1rem;
+  font-weight: 800;
+  font-size: 1.7rem;
+}
+
+.reward-point {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #7f3be0;
+  margin-bottom: 1rem;
+}
+
+.redeem-btn {
+  color: white;
+  font-weight: 600;
+}
+
+.redeem-btn.rounded-pill {
+  width: 8.5rem;
+}
