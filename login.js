@@ -38,7 +38,7 @@ $(document).ready(function () {
         if (response[i].Email === email && response[i].Password === password) {
           exists = true;
           $(".dots").hide();
-          window.location = "logged-in.html";
+          window.location = "index.html";
         }
       }
       if (exists == false) {
