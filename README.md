@@ -11,10 +11,18 @@ Additionally, this website goes beyond just selling products, by offering a uniq
 ## Features
 
 ### Existing Features
+* Feature 1 - 
 
 ### Features Left to Implement
 
 ## Technologies Used
+* HTML - Used to create and structure web pages with the use of tags and elements that define the content and layout of the page.
+* CSS - Used to style and layout web pages, separating the presentation from the content.
+* JavaScript - JavaScript can be used to implement APIs to retrieve and manipulate data from external sources, allowing for dynamic and real-time updates in web pages. (e.g. Map in about-us.html)
+* Lottie - Used in the website to add engaging and interactive animations using vector graphics in a lightweight and scalable manner. (e.g. Most html pages are animated)
+* RestDB - Used to store and manage structured data in various applications by using its simple and flexible API. (e.g. Storing user email and password)
+* AJAX - Used in the website to update parts of a page dynamically and without reloading, improving user experience. (e.g. Checking whether user exists in the RestDB database)
+* DOM - Used to represent and manipulate the structure of a web page in a dynamic way, using JavaScript. (e.g. Seen in the app.js file)
 
 ## Testing
 
