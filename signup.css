@@ -171,3 +171,12 @@ span a:hover {
   color: #788190;
   text-decoration: none;
 }
+
+::placeholder {
+  font-size: 14px;
+}
+
+
+#signup {
+  margin-top: 20px;
+}
