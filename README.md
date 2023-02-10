@@ -8,7 +8,7 @@ Additionally, this website goes beyond just selling products, by offering a uniq
 
 ## Video Links
 * ID_flush_pitch - https://drive.google.com/file/d/10MmekJvezGhTavQ_gV6rah91v9T9bYg8/view?usp=share_link
-* ID_flush_javascrript-pitch - https://drive.google.com/file/d/1z811kXtq6ttbPg3BYGD-p6SNzsvPJ_ew/view?usp=share_link
+* ID_flush_javascript_pitch - https://drive.google.com/file/d/1z811kXtq6ttbPg3BYGD-p6SNzsvPJ_ew/view?usp=share_link
 
 ## Design Process
 * As a user seeking to purchase toilet products, I would prefer a website that is easily accessible at any time, enabling me to buy the desired items with ease. This would allow me to receive the products at my convenience, without the hassle of leaving my home.
