@@ -282,7 +282,6 @@ section.product .text-header p {
 section.game {
   padding: 40px 0;
   padding-top: 160px;
-  padding-bottom: 60px;
 }
 
 section.game .text h1 {
@@ -362,3 +361,5 @@ section.game .buttons .btn-primary.active {
   font-weight: bold;
   width: 100%;
 }
+
+
