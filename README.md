@@ -13,3 +13,9 @@
 ## Testing
 
 ## Credits
+
+### Content
+* No content was taken from 3rd party sites.
+### Media
+
+### Acknowledgements
