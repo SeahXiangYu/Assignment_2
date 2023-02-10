@@ -135,10 +135,9 @@ section.create-acc {
 
 .shift {
   margin-left: -13rem;
-  margin-top: 3rem;
-  width: 51.5rem;
-  height: auto;
-  border-radius: 5rem;
+  width: auto;
+  height: 45rem;
+  border-radius: 3rem;
 }
 
 form {
@@ -175,7 +174,6 @@ span a:hover {
 ::placeholder {
   font-size: 14px;
 }
-
 
 #signup {
   margin-top: 20px;
