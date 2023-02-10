@@ -50,7 +50,7 @@ The website functions seamlessly on desktop view, with all features working as e
    * Contract
    * My password
    * Design objectives
-*  https://www.flaticon.com/free-icons/check
+*  https://www.flaticon.com/free-icon/check_1828743?term=check&page=1&position=9&origin=tag&related_id=1828743
 ### Acknowledgements
 * The game was inspired by https://github.com/WebDevSimplified/wordle-clone
 * The game was inspired by https://replit.com/@mikeatreplit/Wordle-Remix?v=1
