@@ -39,13 +39,7 @@ Additionally, this website goes beyond just selling products, by offering a uniq
 * DOM - Used to represent and manipulate the structure of a web page in a dynamic way, using JavaScript. (e.g. Most html pages are animated)
 
 ## Testing
-Point redemption: Go to the "Game" page. Try to redeem an item, any item. This feature has not been made yet!
-
-Our website looks consistent throughout large and medium screens. In mobile views, most pages are also consistent but the form sections do intersect other sections at certain points.
-
-During our testing, we've not discovered any bugs or problems.
-
-
+The website functions seamlessly on desktop view, with all features working as expected except for those listed in the "Features Left to Implement" section. Both the login and sign-up pages feature input validation, ensuring that only inputs within bounds are accepted. Additionally, some web pages exhibit slight responsiveness.
 ## Credits
 
 ### Content
