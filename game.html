@@ -15,6 +15,7 @@
     />
     <!-- Link To CSS -->
     <link rel="stylesheet" href="game.css" />
+    <script defer src="app.js"></script>
   </head>
   <body>
     <!-- Navigation Bar Section -->
@@ -59,17 +60,17 @@
 
     <!-- Account Display -->
     <div class="account container">
-      <div class="h1">your account.</div>
+      <div class="h1 animation hidden">your account.</div>
       <div class="acc-info container text-center">
         <div class="row align-items-center">
-          <div class="col-2">
+          <div class="col-2 animation hidden">
             <img
               src="images/face-1.png"
               alt="profile"
               style="width: 5rem; height: auto"
             />
           </div>
-          <div class="col h2">
+          <div class="col h2 animation hidden">
             <div class="row">
               <div class="line col">kirby.</div>
               <div class="line col">65,535 points.</div>
@@ -78,19 +79,19 @@
           </div>
         </div>
       </div>
-      <div class="h3">
+      <div class="h3 animation hidden">
         you now have <span class="bold">65,535 points</span>,
         <span class="bold">ranked #1</span> in the flush community.
       </div>
     </div>
 
     <!-- Game Section -->
-    <div class="game container">
+    <div class="game container animation hidden">
       <div class="h1">word of the day.</div>
       <div class="h3">guess that word!</div>
       <br />
       <div class="alert-container" data-alert-container></div>
-      <div class="wordle container">
+      <div class="wordle container animation hidden">
         <div data-guess-grid class="guess-grid">
           <div class="tile"></div>
           <div class="tile"></div>
@@ -169,19 +170,19 @@
         </div>
       </div>
       <br />
-      <div class="h3">1 win = 0.5% discount.</div>
+      <div class="h3 animation hidden">1 win = 0.5% discount.</div>
     </div>
 
     <!-- Redeem Rewards -->
     <div class="redeem container">
-      <div class="h1">redeem your rewards.</div>
-      <div class="h3">
+      <div class="h1 animation hidden">redeem your rewards.</div>
+      <div class="h3 animation hidden">
         claim your prizes with points now, for cashbacks, discounts and much
         more!
       </div>
       <div class="row text-center">
         <div class="col">
-          <div class="box">
+          <div class="box animation hidden">
             <img src="images/brush.png" alt="scrub" />
             <div class="reward-name">scrub.</div>
             <div class="reward-point">250 points</div>
@@ -191,7 +192,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="box">
+          <div class="box animation hidden">
             <img src="images/toilet-paper.png" alt="rolls" />
             <div class="reward-name">rolls.</div>
             <div class="reward-point">1000 points</div>
@@ -201,7 +202,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="box">
+          <div class="box animation hidden">
             <img src="images/plunger.png" alt="plunger" />
             <div class="reward-name">plunger.</div>
             <div class="reward-point">5000 points</div>
@@ -211,7 +212,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="box">
+          <div class="box animation hidden">
             <img src="images/poop.png" alt="poop" />
 
             <div class="reward-name">poop.</div>
