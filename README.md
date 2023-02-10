@@ -12,14 +12,6 @@ Additionally, this website goes beyond just selling products, by offering a uniq
 * As a user, the user orientated design and experience is crucial to me. I prefer websites with animation and interactivity. I like consistent and simple themes that keep the website visually appealing yet easy to navigate. Media such as enticing animations and graphics help grab my attention, a variety of icons and different fonts used also play a major role in the overall design of the website. This would enhance my overall experience and encourage me to visit this website for more products in the future.
 
 ## Features
-Point redemption: 
-Go to the "Game" page.
-Try to redeem an item, any item.
-This feature has not been made yet!
-
-Our website looks consistent throughout large and medium screens. In mobile views, most pages are also consistent but the form sections do intersect other sections at certain points.
-
-During our testing, we've not discovered any bugs or problems.
 
 ### Existing Features
 * Feature 1 - The DOM is used in animating a website for convenient and efficient manipulation of elements for dynamic animations that enhance user experience.
